@@ -1,23 +1,22 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        },
-
-        {
-            "id": 2,
-            "description": "it stinks",
-            "address": "35432 Boppity Rd",
-            "budget": 200,
-            "neededBy": "2021-08-30"
-        }
-
-
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 1,
+      "name": "Merle"
+    }
+  ],
+  "completions": [],
+  "requests": [
+    {
+      "description": "Test",
+      "address": "Test Dr.",
+      "budget": "100",
+      "neededBy": "2021-12-10",
+      "id": 1
+    }
+  ]
 }
