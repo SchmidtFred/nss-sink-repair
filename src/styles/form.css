@@ -1,0 +1,24 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.button {
+    background-color: lightseagreen;
+    border: 2px outset rgb(26, 141, 135);
+    color: whitesmoke;
+}
+
+.button:hover {
+    background-color: rgb(28, 148, 142);
+}
+
+.button:active {
+    background-color: rgb(28, 148, 142);
+    border: 2px inset rgb(26, 141, 135);
+}
