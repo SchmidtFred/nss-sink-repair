@@ -5,18 +5,45 @@
       "name": "Maude"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Merle"
     }
   ],
-  "completions": [],
+  "completions": [
+    {
+      "reqId": 1,
+      "plumbId": 2,
+      "dateCompleted": "Wed Dec 08 2021",
+      "id": 1
+    },
+    {
+      "reqId": 3,
+      "plumbId": 2,
+      "dateCompleted": "Wed Dec 08 2021",
+      "id": 2
+    }
+  ],
   "requests": [
     {
       "description": "Test",
-      "address": "Test Dr.",
-      "budget": "100",
-      "neededBy": "2021-12-10",
+      "address": "Test",
+      "budget": 4,
+      "neededBy": "2021-12-14",
       "id": 1
+    },
+    {
+      "description": "Leakyk Faucet",
+      "address": "4902340 bob dr.",
+      "budget": 45082608,
+      "neededBy": "2022-01-01",
+      "id": 2
+    },
+    {
+      "description": "home exploded",
+      "address": "nowhere anymore",
+      "budget": 10000000,
+      "neededBy": "2022-01-07",
+      "id": 3
     }
   ]
 }
