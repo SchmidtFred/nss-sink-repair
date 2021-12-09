@@ -1,0 +1,21 @@
+.requestList {
+    padding: 0;
+}
+
+.requestList ul {
+    padding: 0;
+    background-color: lightskyblue;
+}
+
+.request {
+    border-bottom: dashed rgb(20, 112, 108);
+}
+
+.completed--true {
+    background-color: rgb(51, 109, 145);
+    color: white
+}
+
+.completed--true select {
+    visibility: hidden;
+}
